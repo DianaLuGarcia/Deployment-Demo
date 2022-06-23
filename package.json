@@ -1,27 +1,21 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.1",
-    "main": "github:server/server.js"
-  },
+  "name": "deployment-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+YOUR-GITHUB-URL"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "name": "deployment-demo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DianaLuGarcia/Deployment-Demo.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DianaLuGarcia/Deployment-Demo/issues"
-  },
-  "homepage": "https://github.com/DianaLuGarcia/Deployment-Demo#readme",
-  "description": ""
+  "homepage": "YOUR-GITHUB-URL",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
