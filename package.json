@@ -2,7 +2,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "version": "1.0.0",
     "main": "github:server/server.js"
   },
   "scripts": {
@@ -12,8 +11,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "Dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.3"
-  }
+  "name": "deployment-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaLuGarcia/Deployment-Demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DianaLuGarcia/Deployment-Demo/issues"
+  },
+  "homepage": "https://github.com/DianaLuGarcia/Deployment-Demo#readme",
+  "description": ""
 }
